@@ -1,0 +1,21 @@
+{
+  "name": "souvikojha",
+  "version": "1.0.0",
+  "description": "Souvik's Info",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Souvik", "souvikojha"],
+  "author": "Souvik Ojha",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^10.2.2",
+    "open": "^10.1.0"
+  }
+}
