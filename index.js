@@ -46,8 +46,9 @@ const generateInfo = () => {
   const personalDetails = [
     ['NAME', 'Souvik Ojha'],
     ['STATUS', 'Freelancer | Backend Engineer | Learner'],
+    ['EMAIL', 'souvikojha707@gmail.com'],
     ['GITHUB', 'github.com/techsouvik'],
-    ['WEBSITE', 'https://www.notion.so/96f41751e2e3460eba73961b796c23e3?pvs=25'],
+    ['WEBSITE', 'https://tecshouvik.github.io'],
   ];
 
   const skills = [
@@ -90,6 +91,7 @@ const displayOptions = () =>
         { name: '👀 View LinkedIn Profile', value: 'linkedin' },
         { name: '🐙 View GitHub Profile', value: 'github' },
         { name: '🌐 Visit Website', value: 'website' },
+        { name: '📄 View Resume', value: 'resume' },
         { name: '📧 Send Email', value: 'email' },
         { name: '👋 Exit', value: 'exit' },
       ],
@@ -101,8 +103,9 @@ const handleSelection = async action => {
   const links = {
     linkedin: 'https://www.linkedin.com/in/souvikojha',
     github: 'https://github.com/techsouvik',
-    website: 'https://www.notion.so/96f41751e2e3460eba73961b796c23e3?pvs=25',
+    website: 'https://techsouvik.github.io',
     email: 'mailto:souvikojha707@gmail.com',
+    resume: 'https://bit.ly/souvikojha_resume'
   };
 
   if (links[action]) {
