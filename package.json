@@ -4,6 +4,9 @@
   "description": "Souvik's Info",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "souvikojha": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
