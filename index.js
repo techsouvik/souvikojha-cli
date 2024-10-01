@@ -61,7 +61,7 @@ const generateInfo = () => {
   ];
 
   const connectInfo = `
-  🌟 ${chalk.greenBright('Elevate Your Projects with Shubh')} 🌟
+  🌟 ${chalk.greenBright('Elevate Your Projects with Souvik')} 🌟
 
   ✨ ${chalk.greenBright('Innovative Freelancer')}
   ✨ ${chalk.greenBright('Backend Developer')}
